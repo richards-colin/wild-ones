@@ -1,10 +1,16 @@
+"use client"; // Needed for framer-motion
+
 import { motion } from "framer-motion";
 
 export default function HeroHeader() {
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen text-center bg-gradient-to-b from-[#f6f6f4] via-[#f2f1ef] to-[#eae9e7] px-4">
+    <section
+      className="flex flex-col items-center justify-center min-h-screen text-center bg-gradient-to-b from-[#f6f6f4] via-[#f2f1ef] to-[#eae9e7] px-4"
+      aria-labelledby="hero-title"
+    >
       {/* Main title */}
       <motion.h1
+        id="hero-title"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}

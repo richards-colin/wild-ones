@@ -1,29 +1,27 @@
 import Header from "@/components/Header";
-import HeroHeader from "../components/HeroHeader";
+import HeroHeader from "@/components/HeroHeader";
 import Gallery from "@/components/Gallery";
 
 const images = [
-  { src: "/photos/headshot1.jpg", alt: "Portrait shot" },
-  { src: "/photos/headshot2.jpg", alt: "Portrait shot" },
-  { src: "/photos/headshot3.jpg", alt: "Portrait shot" },
+  { src: "/photos/headshot1.jpeg", alt: "Portrait shot" },
+  { src: "/photos/headshot2.jpeg", alt: "Portrait shot" },
+  { src: "/photos/headshot3.jpeg", alt: "Portrait shot" },
 ];
 
 export default function HomePage() {
   return (
     <main className="relative">
-      {/* Header at the very top */}
       <Header />
 
-      {/* Sections with IDs so nav links work */}
       <section id="home" className="min-h-screen">
         <HeroHeader />
       </section>
 
       <section id="gallery" className="min-h-screen bg-gray-50">
-        {/* Pass images as prop here */}
         <Gallery images={images} />
       </section>
 
+      {/* About Section */}
       <section id="about" className="min-h-screen bg-white flex items-center justify-center">
         <div className="max-w-3xl text-center px-6">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
@@ -34,6 +32,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Contact Section */}
       <section id="contact" className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="max-w-3xl text-center px-6">
           <h2 className="text-4xl font-bold mb-4">Contact</h2>
