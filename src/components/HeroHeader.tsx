@@ -45,7 +45,7 @@ export default function HeroHeader() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
           <a
-            href="https://instagram.com/yourinstagram"
+            href="https://www.instagram.com/wildones.photos/?igsh=cHZnbWNyeDNidjhz#"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 py-3 bg-pink-600 text-white rounded-lg hover:bg-pink-700 transition font-semibold text-lg"
@@ -53,7 +53,7 @@ export default function HeroHeader() {
             Instagram
           </a>
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:ekrhys@gmail.com"
             className="inline-block px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition font-semibold text-lg"
           >
             Email Us
