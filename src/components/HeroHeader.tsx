@@ -53,7 +53,7 @@ export default function HeroHeader() {
             Instagram
           </a>
           <a
-            href="mailto:ekrhys@gmail.com"
+            href="mailto:ekandrhysphotography@gmail.com"
             className="inline-block px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition font-semibold text-lg"
           >
             Email Us
